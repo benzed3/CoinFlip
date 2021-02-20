@@ -1,5 +1,26 @@
+/*styling for header
+*/
+
 header {
     text-align: center;
+    color: white;
+    background: grey;
+    padding: 15px 0 15px 0;
+    font-family: 'Staatliches', cursive;
+    text-shadow: 2px 2px black;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+/*basic styling for body
+*/
+
+.row {
+    height: 200px;
 }
 
 .button {
