@@ -7,3 +7,11 @@ header {
   align-items: center;
   justify-content: center;
 }
+
+#imgDiv {
+    text-align: center;
+}
+
+.score {
+    text-align: center;
+}
