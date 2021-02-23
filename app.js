@@ -1,12 +1,12 @@
 $("#heads").on("click", function () {
 
-    flipCoin(0);
+    $("#imgDiv").html("<img src='images/us-quarter-front.jpg'>");
 
 })
 
 $("#tails").on("click", function () {
 
-    flipCoin(1);
+    $("#imgDiv").html("<img src='images/us-quarter-back.jpg'>")
 
 })
 
@@ -16,11 +16,11 @@ function flipCoin(result) {
 
     if (randomNumber === 0) {
 
-        $("#imgDiv").html("<img src='images/us-quarter-front.jpg'>");
+
     }
 
     else {
-        $("#imgDiv").html("<img src='images/us-quarter-back.jpg'>")
+
     }
 
 }
