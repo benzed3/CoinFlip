@@ -14,6 +14,8 @@ $("#tails").on("click", function () {
 
 var wins = 0;
 var losses = 0;
+var total = 0;
+var ratio = 0;
 
 function flipCoin(result) {
 
@@ -21,12 +23,18 @@ function flipCoin(result) {
 
     if (result === randomNumber) {
         wins++;
+        total++;
+        ratio = wins / total;
         $("#wins").html("<h3>" + wins + "</h3>");
+        $("#ratio").html("<h3>" + ratio + "</h3>");
     }
 
     else {
         losses++;
+        total++;
+        ratio = wins / total;
         $("#losses").html("<h3>" + losses + "</h3>");
+        $("#ratio").html("<h3>" + ratio + "</h3>");
     }
 
 }
