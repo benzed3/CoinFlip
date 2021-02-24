@@ -1,13 +1,13 @@
 $("#heads").on("click", function () {
 
-    $("#imgDiv").html("<img src='images/us-quarter-front.jpg'>");
+    $("#imgDiv").append("<img src='images/us-quarter-front.jpg'>");
     flipCoin(0);
 
 })
 
 $("#tails").on("click", function () {
 
-    $("#imgDiv").html("<img src='images/us-quarter-back.jpg'>");
+    $("#imgDiv").append("<img src='images/us-quarter-back.jpg'>");
     flipCoin(1);
 
 })
@@ -27,6 +27,7 @@ function flipCoin(result) {
         ratio = wins / total;
         $("#wins").html("<h3>" + wins + "</h3>");
         $("#ratio").html("<h3>" + ratio + "</h3>");
+        $("#text2").html("<h3>You Win!!</h3>");
     }
 
     else {
@@ -35,6 +36,7 @@ function flipCoin(result) {
         ratio = wins / total;
         $("#losses").html("<h3>" + losses + "</h3>");
         $("#ratio").html("<h3>" + ratio + "</h3>");
+        $("#text2").html("<h3>Sorry! You lose!</h3>");
     }
 
 }
