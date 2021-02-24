@@ -23,6 +23,10 @@ h1 {
     height: 200px;
 }
 
+#imgRow {
+    height: 250px;
+}
+
 .button {
     display: flex;
   align-items: center;

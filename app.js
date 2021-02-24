@@ -1,13 +1,13 @@
 $("#heads").on("click", function () {
 
-    $("#imgDiv").append("<img src='images/us-quarter-front.jpg'>");
+    $("#imgDiv").html("<img src='images/us-quarter-front.jpg'>");
     flipCoin(0);
 
 })
 
 $("#tails").on("click", function () {
 
-    $("#imgDiv").append("<img src='images/us-quarter-back.jpg'>");
+    $("#imgDiv").html("<img src='images/us-quarter-back.jpg'>");
     flipCoin(1);
 
 })
