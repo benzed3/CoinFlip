@@ -26,7 +26,7 @@ function flipCoin(result) {
         total++;
         ratio = wins / total;
         $("#wins").html("<h3>" + wins + "</h3>");
-        $("#ratio").html("<h3>" + ratio + "</h3>");
+        $("#ratio").html("<h3>" + ratio.toFixed(2) + "</h3>");
         $("#text2").html("<h3>You Win!!</h3>");
     }
 
@@ -35,7 +35,7 @@ function flipCoin(result) {
         total++;
         ratio = wins / total;
         $("#losses").html("<h3>" + losses + "</h3>");
-        $("#ratio").html("<h3>" + ratio + "</h3>");
+        $("#ratio").html("<h3>" + ratio.toFixed(2) + "</h3>");
         $("#text2").html("<h3>Sorry! You lose!</h3>");
     }
 
