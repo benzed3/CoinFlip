@@ -40,3 +40,15 @@ h1 {
 .score {
     text-align: center;
 }
+
+@media screen and (max-width: 992px) {
+
+    .button {
+        width: 50%;
+    }
+
+    .score {
+        width: 33%;
+    }
+
+}
