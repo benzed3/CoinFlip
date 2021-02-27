@@ -41,6 +41,10 @@ h1 {
     text-align: center;
 }
 
+#text2 {
+    font-family: 'Akaya Telivigala', cursive;
+}
+
 @media screen and (max-width: 992px) {
 
     .button {
