@@ -7,7 +7,6 @@ $("#heads").on("click", function () {
 
 $("#tails").on("click", function () {
 
-    $("#imgDiv").html("<img src='images/us-quarter-back.jpg'>");
     flipCoin(1);
 
 })
@@ -37,6 +36,14 @@ function flipCoin(result) {
         $("#losses").html("<h3>" + losses + "</h3>");
         $("#ratio").html("<h3>" + ratio.toFixed(2) + "</h3>");
         $("#text2").html("<h3>Sorry! You lose!</h3>");
+    }
+
+    if (randomNumber === 0) {
+        $("#imgDiv").html("<img src='images/us-quarter-front.jpg'>");
+    }
+
+    else {
+        $("#imgDiv").html("<img src='images/us-quarter-back.jpg'>");
     }
 
 }
