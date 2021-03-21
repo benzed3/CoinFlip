@@ -1,13 +1,24 @@
 $("#heads").on("click", function () {
 
-    $("#imgDiv").html("<img src='images/us-quarter-front.jpg'>");
-    flipCoin(0);
+    var coinFlipping;
+
+    $("#imgDiv").html("Coin is flipping...");
+
+    coinFlipping = setTimeout(function () {
+        flipCoin(0);
+    }, 3000);
 
 })
 
 $("#tails").on("click", function () {
 
-    flipCoin(1);
+    var coinFlipping;
+
+    $("#imgDiv").html("Coin is flipping...");
+
+    coinFlipping = setTimeout(function () {
+        flipCoin(1);
+    }, 3000);
 
 })
 
