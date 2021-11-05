@@ -75,3 +75,15 @@ h1 {
 
 }
 
+@media screen and (max-height: 768px) and (max-width: 1024px) {
+
+    .row {
+        height: 100px;
+    }
+
+    #imgRow {
+        height: 255px;
+    }
+
+}
+
