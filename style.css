@@ -55,3 +55,11 @@ h1 {
 
 }
 
+@media screen and (max-height: 1025px) and (max-width: 1367px) {
+
+    #imgRow {
+        height: 300px;
+    }
+
+}
+
