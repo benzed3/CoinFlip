@@ -249,6 +249,8 @@ h1 {
 
 @media screen and (max-height: 281px) and (max-width: 654px) {
 
-   
+   header {
+       padding: 5px;
+   }
 
 }
