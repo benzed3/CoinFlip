@@ -164,3 +164,25 @@ h1 {
     }
 
 }
+
+@media screen and (max-width: 376px) and (max-height: 813px) {
+
+
+
+}
+
+@media screen and (max-height: 376px) and (max-width: 813px) {
+
+    .row {
+        height: 70px;
+    }
+
+    #imgRow {
+        height: 140px;
+    }
+
+    img {
+        width: 13%;
+    }
+
+}
