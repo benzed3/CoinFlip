@@ -133,5 +133,21 @@ h1 {
         width: 50%;
     }
 
+    .row {
+        height: 75px;
+    }
+
+    #imgRow {
+        height: 160px;
+    }
+
+    img {
+        width: 15%;
+    }
+
+    .score {
+        width: 33%;
+    }
+
 }
 
