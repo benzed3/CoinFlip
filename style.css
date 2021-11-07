@@ -253,4 +253,12 @@ h1 {
        padding: 5px;
    }
 
+   #imgRow {
+       height: 70px;
+   }
+
+   img {
+       width: 7%;
+   }
+
 }
