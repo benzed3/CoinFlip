@@ -161,6 +161,14 @@ h1 {
         height: 150px;
     }
 
+    #imgRow {
+        height: 175px;
+    }
+
+    img {
+        width: 35%;
+    }
+
 }
 
 @media screen and (max-height: 412px) and (max-width: 824px) {
