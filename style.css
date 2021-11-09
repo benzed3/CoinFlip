@@ -303,6 +303,10 @@ h1 {
         height: 100px;
     }
 
+    #imgRow {
+        height: 150px;
+    }
+
 }
 
 @media screen and (max-height: 281px) and (max-width: 654px) {
