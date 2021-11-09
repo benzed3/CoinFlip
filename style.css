@@ -215,7 +215,9 @@ h1 {
 
 @media screen and (max-width: 376px) and (max-height: 813px) {
 
-
+    img {
+        width: 40%;
+    }
 
 }
 
