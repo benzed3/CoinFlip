@@ -137,8 +137,12 @@ h1 {
 
 @media screen and (max-height: 415px) and (max-width: 737px) {
 
+    header {
+        padding: 7px;
+    }
+
     .row {
-        height: 50px;
+        height: 75px;
     }
 
     #imgRow {
