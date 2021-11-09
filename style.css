@@ -129,6 +129,10 @@ h1 {
         height: 175px;
     }
 
+    img {
+        width: 35%;
+    }
+
 }
 
 @media screen and (max-height: 415px) and (max-width: 737px) {
