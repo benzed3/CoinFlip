@@ -81,6 +81,10 @@ h1 {
         height: 250px;
     }
 
+    img {
+        width: 30%;
+    }
+
     .score {
         width: 33%;
     }
