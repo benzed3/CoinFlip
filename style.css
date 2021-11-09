@@ -276,19 +276,23 @@ h1 {
     }
 
     img {
-        width: 50%;
+        width: 45%;
     }
 
 }
 
 @media screen and (max-height: 321px) and (max-width: 569px) {
 
+    header {
+        padding: 5px 0 5px 0;
+    }
+
     #imgRow {
-        height: 90px;
+        height: 110px;
     }
 
     img {
-        width: 10%;
+        width: 13%;
     }
 
 }
