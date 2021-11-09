@@ -138,7 +138,7 @@ h1 {
 @media screen and (max-height: 415px) and (max-width: 737px) {
 
     header {
-        padding: 7px;
+        padding: 7px 0 7px 0;
     }
 
     .row {
@@ -173,6 +173,10 @@ h1 {
 
 @media screen and (max-height: 412px) and (max-width: 824px) {
 
+    header {
+        padding: 7px 0 7px 0;
+    }
+
     .button {
         width: 50%;
     }
@@ -186,7 +190,7 @@ h1 {
     }
 
     img {
-        width: 15%;
+        width: 17%;
     }
 
     .score {
