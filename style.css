@@ -77,6 +77,10 @@ h1 {
         width: 50%;
     }
 
+    #imgRow {
+        height: 250px;
+    }
+
     .score {
         width: 33%;
     }
