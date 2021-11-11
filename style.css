@@ -157,6 +157,14 @@ h1 {
         height: 75px;
     }
 
+    #heads {
+        padding: 5px 10px 5px 10px;
+    }
+
+    #tails {
+        padding: 5px 10px 5px 10px;
+    }
+
     #imgRow {
         height: 170px;
     }
