@@ -181,6 +181,14 @@ h1 {
         height: 150px;
     }
 
+    #heads {
+        padding: 5px 10px 5px 10px;
+    }
+
+    #tails {
+        padding: 5px 10px 5px 10px;
+    }
+
     #imgRow {
         height: 175px;
     }
@@ -199,6 +207,14 @@ h1 {
 
     .button {
         width: 50%;
+    }
+
+    #heads {
+        padding: 5px 10px 5px 10px;
+    }
+
+    #tails {
+        padding: 5px 10px 5px 10px;
     }
 
     .row {
